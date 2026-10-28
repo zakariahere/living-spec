@@ -102,6 +102,10 @@ npm run lint && npm test -- --changed
 
 It has to be fast or you will turn it off. A failing check exits with code 2, so the output goes back to the agent in the same turn. Edits under `docs/specs/` skip the check. The script is a bash script, so on Windows it needs Git Bash.
 
+## Evals
+
+Behavioural evals live in [`plugins/spec-ledger/evals`](plugins/spec-ledger/evals) and run with `claude plugin eval`: they check that `/spec-change` never touches the source before approval, that scenario IDs stay stable, that ambiguity is logged instead of guessed, and that the baseline never invents rules. See the [evals README](plugins/spec-ledger/evals/README.md) for how to run them.
+
 ## Conventions
 
 - Scenario IDs are `<AREA>-<NN>`: stable, never renumbered, never reused. A removed scenario is marked `retired`.

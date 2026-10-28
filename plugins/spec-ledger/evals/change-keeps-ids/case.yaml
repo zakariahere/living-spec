@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: change-keeps-ids
+context:
+  scaffold_script: setup.sh
