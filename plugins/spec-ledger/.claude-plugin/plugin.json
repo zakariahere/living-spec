@@ -1,0 +1,9 @@
+{
+  "name": "spec-ledger",
+  "version": "0.1.0",
+  "description": "A living spec in the repo: baseline extraction, scenario-ID deltas, impact analysis, ADRs, an append-only ledger of pivots, and a fast post-edit guard.",
+  "author": { "name": "Zakaria" },
+  "license": "MIT",
+  "homepage": "https://blog.zakaria.lu/spec-driven-iteration-with-claude-code-taming-requirements-that-won-t-sit-still",
+  "keywords": ["specs", "gherkin", "adr", "workflow"]
+}

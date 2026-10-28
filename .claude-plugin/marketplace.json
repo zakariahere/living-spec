@@ -1,0 +1,12 @@
+{
+  "name": "living-spec-marketplace",
+  "owner": { "name": "Zakaria" },
+  "metadata": { "description": "Plugins for keeping specs alive in the repo while requirements keep changing." },
+  "plugins": [
+    {
+      "name": "spec-ledger",
+      "source": "./plugins/spec-ledger",
+      "description": "Keep the spec in the repo and record every change of direction as a reviewed delta before any code is touched."
+    }
+  ]
+}
